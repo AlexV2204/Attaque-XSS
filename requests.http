@@ -42,4 +42,28 @@ Accept: application/json
 GET https://http-practice.herokuapp.com/wilders/1645163
 Content-Type: application/json
 
+###Mettre à jour Jane Smith
+PUT https://http-practice.herokuapp.com/wilders/1645162
+Content-Type: application/json
 
+{
+  "name": "Jane Smith",
+  "language": "PHP"
+}
+
+###Mettre à jour John Doe
+PUT https://http-practice.herokuapp.com/wilders/1645163
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "language": "Python"
+}
+
+###Effacer Jane Smith
+DELETE https://http-practice.herokuapp.com/wilders/1645162
+Content-Type: application/json
+
+###Effacer John Doe
+DELETE https://http-practice.herokuapp.com/wilders/1645163
+Content-Type: application/json
